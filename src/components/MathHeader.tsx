@@ -74,7 +74,7 @@ export const MathHeader: React.FC<MathHeaderProps> = ({
             }`}
           >
             <Sparkles className="w-3.5 h-3.5" />
-            <span>Générateur Infini</span>
+            <span>Générateur des exercices infini</span>
           </button>
 
           <button

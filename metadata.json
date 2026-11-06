@@ -1,6 +1,8 @@
 {
-  "name": "SalairePro Android - Gestionnaire de Salaire & Budget en Temps Réel",
-  "description": "Application mobile Android de gestion du salaire par jour et par mois, suivi des gains en temps réel et alarmes de dépassement de budget.",
+  "name": "appliacation de math",
+  "description": "appliacation de math",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }

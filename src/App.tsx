@@ -88,7 +88,7 @@ export default function App() {
           </div>
         )}
 
-        {/* VIEW 2 : GÉNÉRATEUR INFINI D'EXERCICES AVEC CORRECTION PAS À PAS */}
+        {/* VIEW 2 : GÉNÉRATEUR DES EXERCICES INFINI AVEC CORRECTION PAS À PAS */}
         {currentTab === 'generateur' && <InfiniteExerciseGenerator />}
 
         {/* VIEW 3 : LABORATOIRE VISUEL & SIMULATEURS MATHÉMATIQUES */}
