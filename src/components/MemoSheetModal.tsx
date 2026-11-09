@@ -41,7 +41,15 @@ export const MemoSheetModal: React.FC<MemoSheetModalProps> = ({ isOpen, onClose 
 
           <div className="flex items-center gap-2">
             <button
-              onClick={() => window.print()}
+              onClick={() => {
+                try {
+                  if (typeof window !== 'undefined' && typeof window.print === 'function') {
+                    window.print();
+                  }
+                } catch (e) {
+                  console.warn('Impression non supportée sur cet appareil', e);
+                }
+              }}
               className="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-semibold text-xs transition cursor-pointer flex items-center gap-1.5 shadow"
               title="Imprimer toutes les fiches"
             >
